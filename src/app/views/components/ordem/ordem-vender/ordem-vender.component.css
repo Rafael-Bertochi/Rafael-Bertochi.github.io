@@ -1,0 +1,11 @@
+.content{
+    text-align: center;
+}
+.item{
+   margin: 10px;
+}
+button{
+    margin-right: 10px;
+    margin: 10px;
+    display: inline-block;
+}

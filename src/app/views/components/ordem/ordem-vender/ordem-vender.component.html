@@ -1,0 +1,18 @@
+<div class="content">
+    <h1>Venda de Ativo</h1>
+    <label>Nome do Ativo: </label>
+    <input type="text" class="item" [(ngModel)]="ativo.nome" disabled >
+    <br>
+    <label>Valor do Ativo: </label>
+    <input type="text" class="item" [(ngModel)]="ativo.preco" disabled>
+    <br>
+    <label class="item">Quantidade: </label>   
+    <input type="number" class="item" class="inputChange" [(ngModel)]="eventValue" min=1 name="eventValue" (change)="valor()">
+    <br>
+    <label class="item">Valor da ordem: </label> 
+    <input type="text" class="item" [(ngModel)]="resultado" disabled>
+    <br>
+     <button class="mat-elevation-z8" (click)="cancel()"  mat-stroked-button color="warn">CANCELAR</button>
+     <button class="mat-elevation-z8" (click)="vender()" mat-stroked-button color="accent">CONFIRMAR</button>
+    </div>
+

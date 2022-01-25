@@ -1,0 +1,13 @@
+mat-card {
+    width: 80%;
+    height: 50%;
+    margin: 1rem auto 0 auto;
+}
+button{ 
+  margin-right: 10px;
+  height: 30px;
+  margin: 7px;
+}
+input{
+    height: 20px;
+}
